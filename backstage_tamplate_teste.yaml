@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mock-bamboo-service
+  description: Entidade Mock Teste Plugin Bamboo Action
+  annotations:
+    bamboo/project-key: SGTIDVPS06
+    bamboo/plan-key: SGTIDVPS06-BSFFSRVBSFASTFLOWDEV
+spec:
+  type: service
+  lifecycle: experimental
+  system: examples
+  owner: guests
